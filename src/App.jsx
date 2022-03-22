@@ -4,6 +4,7 @@ import BlogEntries from "./components/BlogEntries/BlogEntries";
 import Sidebar from "./components/Sidebar/Sidebar";
 import Footer from "./components/Footer/Footer";
 import "./index.css";
+import Article from "./pages/Article";
 
 const App = () => {
   return (
@@ -11,8 +12,9 @@ const App = () => {
         <div className="w3-content" style={{maxWidth: "1400px"}}>
           <Header/>
           <div className="w3-row">
-              <BlogEntries/>  
-              <Sidebar/>
+              {/* <BlogEntries/>  
+              <Sidebar/> */}
+              <Article/>
           </div>
         </div>
         <Footer/>
