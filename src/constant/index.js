@@ -17,7 +17,22 @@ export const posts = [
         countComments:"14",
         imageUrl:"https://habrastorage.org/r/w1560/getpro/habr/upload_files/739/5c6/bb7/7395c6bb767a121158429dd793438d52.png"
     }
+    
 ]
+
+export const posts2 = [
+    {
+        imgOfPublisher: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
+        name: "OlegSivchenko ",
+        dateOfPublication: "18 марта в 03:33"
+    },
+        {
+            tag1: "Научно-популярное ",
+            tag2: "Физика ",
+            tag3: "Астрономия ",
+        }
+]
+
 
 export const popularPosts = [
     {
