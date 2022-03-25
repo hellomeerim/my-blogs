@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./Article.module.css"
 import Comments from './Comments';
-import { posts2 } from '../constant';
+import { tags } from '../constant';
 
 const Article = () => {
     return (
@@ -17,7 +17,7 @@ const Article = () => {
             }
             </div>
             <h1>Координаты чудес. Как сверхновые осветили путь к современной астрофизике</h1>{
-                posts2.map ((tags) => {
+                tags.map ((tags) => {
                     return <>
                         <p>{tags.tag1}{tags.tag2} {tags.tag3}</p>
                     </>

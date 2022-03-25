@@ -1,6 +1,11 @@
 export const posts = [
     {
         id: 0,
+        user:{
+            imgOfPublisher: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
+            name: "OlegSivchenko ",
+            dateOfPublication: new Date().toTimeString()
+        } ,
         title: "Координаты чудес. Как сверхновые осветили путь к современной астрофизике",
         titleDesc:"Научно-популярное, Физика, Астрономия",
         date:"15.03.2022",
@@ -10,6 +15,11 @@ export const posts = [
     },
     {
         id: 1,
+        user:{
+            imgOfPublisher: "https://cdn-icons-png.flaticon.com/512/3667/3667249.png",
+            name: "AlinaBondarenko ",
+            dateOfPublication: new Date().toTimeString()
+        } ,
         title:"Разработчик в стране Serverless: первые шаги, первая лямбда",
         titleDesc:"Блог компании Lineate, JavaScript *, Программирование *, Node.JS *, Serverless *",
         date:"18.03.2022",
@@ -20,12 +30,7 @@ export const posts = [
     
 ]
 
-export const posts2 = [
-    {
-        imgOfPublisher: "https://habrastorage.org/r/w32/getpro/habr/avatars/27b/f35/f6f/27bf35f6f595fc136b70c384752ba387.jpg",
-        name: "OlegSivchenko ",
-        dateOfPublication: "18 марта в 03:33"
-    },
+export const tags = [
         {
             tag1: "Научно-популярное ",
             tag2: "Физика ",
